@@ -1,0 +1,149 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+    text-decoration: none;
+    
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    margin-bottom:0;
+    border-radius:0;
+    vertical-align: middle;
+}
+
+.navbar-brand{
+    min-height: 40px;
+}
+
+.navbar-brand>img{
+    max-height: 40px;
+    width: auto;
+}
+
+.navbar-right span{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.navbar-right a{
+    vertical-align: middle;
+    padding: 2px 5px;
+    font-weight: 600;
+}
+
+.background{
+    background: #fff,linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) no-repeat center center fixed;
+    background-blend-mode: overlay;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.heading{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.container{
+    position: relative;
+}
+
+.container sub2{
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.optgroup{
+    font-size: 13px;
+}
+
+
+.form-group {
+    font-size: 12px !important;
+}
+
+.filter-types{
+    margin-bottom: 4px;
+    margin-left: 1px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button1{
+    width: 720px;
+    font-weight: 600;
+}
+.button2{
+    margin-right: 0px;
+    float: right;
+    width: 200px;
+}
+
+
+.sub2 input[type="text"]{
+    color: #000;
+}
+
+.helptext{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.numppl{
+    width: 570px;
+    border-color: darkgrey;
+    border-width: 1.5px;
+}
+
+.pseudotext{
+    font-size: 14px;
+    color: #fff;
+
+}
+
+#load-more{
+    color: dimgrey;
+    text-decoration: none;
+
+}
+
+#load-more:hover { 
+    color: #449cb5;
+    text-decoration: none;
+}
+
+.divider{
+    margin:0;
+}
+
+.instruction{
+    font-size: 19px;
+    font-weight: 600;
+    color: #449cb5;
+    vertical-align:middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-groups{
+    vertical-align: middle;
+}

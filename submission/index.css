@@ -1,0 +1,74 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    margin-bottom:0;
+    border-radius:0;
+}
+
+.navbar-brand{
+    min-height: 40px;
+}
+.navbar-brand>img{
+    max-height: 40px;
+    width: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 1.0;
+    z-index: 1;
+}
+
+#video-background{
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
+}
+
+.word-logo{
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    height: auto;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-text{
+    color: white;
+    position: relative;
+    padding-bottom: 40px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.btn-toolbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

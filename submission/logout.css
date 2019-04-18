@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    margin-bottom:0;
+    border-radius:0;
+}
+
+.navbar-brand{
+    min-height: 40px;
+}
+.navbar-brand>img{
+    max-height: 40px;
+    width: auto;
+}
+.home{
+    background: url(img/background_image.png),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) no-repeat center center fixed;
+    background-blend-mode: overlay;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 60px;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    padding-top: 100px;
+}
+
+.btn-toolbar{
+    padding-top: 350px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+}
